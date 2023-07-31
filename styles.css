@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Set the background color of the entire application */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+/* Style the title label */
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+/* Style the input fields and buttons */
+.text-input {
+    -fx-font-size: 16px;
+    -fx-pref-width: 100px;
+    -fx-padding: 5px;
+}
+
+.convert-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-pref-width: 100px;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}
+
+/* Style the result label */
+.result-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
